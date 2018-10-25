@@ -1,0 +1,24 @@
+{
+    "_id": {
+        "$oid": "5ba519b893184a2b540afb9b"
+    },
+    "accountid": "anhanh",
+    "firstname": "Anh",
+    "lastname": "Anh",
+    "birthday": {
+        "$date": "1986-01-01T00:00:00.000Z"
+    },
+    "registereddate": {
+        "$date": "2018-05-01T00:00:00.000Z"
+    },
+    "phonenumber": "0907932740"
+}
+{
+    "_id": {
+        "$oid": "5bac750f4e82001c80c36d15"
+    },
+    "accountid": "dungdinh",
+    "registereddate": {
+        "$date": "2018-09-27T00:00:00.000Z"
+    }
+}

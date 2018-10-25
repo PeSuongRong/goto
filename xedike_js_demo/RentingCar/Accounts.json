@@ -1,0 +1,27 @@
+{
+    "_id": {
+        "$oid": "5ba51afa93184a2b540afb9c"
+    },
+    "accountid": "nguyendung",
+    "password": "34nz03458kzsaw\u0026%124",
+    "accounttype": "driver",
+    "isactive": true
+}
+{
+    "_id": {
+        "$oid": "5bac748d4e82001c80c36d13"
+    },
+    "accountid": "anhanh",
+    "password": "as999x09ioj33333",
+    "accountype": "passenger",
+    "isactive": "true"
+}
+{
+    "_id": {
+        "$oid": "5bac74c54e82001c80c36d14"
+    },
+    "accountid": "dungdinh",
+    "password": "",
+    "accounttype": "passenger",
+    "isactive": "true"
+}

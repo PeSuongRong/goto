@@ -1,0 +1,35 @@
+{
+    "_id": {
+        "$oid": "5ba5171893184a2b540afb9a"
+    },
+    "accountid": "nguyendung",
+    "firstname": "Dũng",
+    "lastname": "Nguyễn",
+    "middlename": "Anh",
+    "brithday": {
+        "$date": "1985-12-31T17:00:00.000Z"
+    },
+    "address": "01 Quang Trung, Đà Năng",
+    "company": "",
+    "profile": "",
+    "numberoftrips": 22,
+    "infocar": {
+        "model": "Innova 2015",
+        "image": "/innova2015_201809011800.png"
+    },
+    "registereddate": {
+        "$date": "2018-05-02T17:00:00.000Z"
+    },
+    "rewardpoints": 150,
+    "passengersrated": [
+        {
+            "passengername": "Anh Anh",
+            "rated": 3.0
+        },
+        {
+            "passengername": "Phan Thi Minh",
+            "rated": "3",
+            "comment": "Tài xế nhiệt tình"
+        }
+    ]
+}

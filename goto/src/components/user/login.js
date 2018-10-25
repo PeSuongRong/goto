@@ -36,7 +36,7 @@ class login extends Component {
                     </ul>
                     </div>
                     <a href="true" className="login__forgot float-left" data-dismiss="modal" data-toggle="modal" data-target="#dangky">Đăng ký</a>
-                    <a href="true" className="login__forgot float-right">Bạn quên mật khẩu?</a>
+                    <a href="true" className="login__forgot float-right" data-dismiss="modal" data-toggle="modal" data-target="#resetpass">Bạn quên mật khẩu?</a>
                 </div>
                 </div>
             </div>

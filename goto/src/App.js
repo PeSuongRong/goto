@@ -5,6 +5,7 @@ import Footer from './components/footer';
 import Login from './components/user/login';
 import Registration from './components/user/registration';
 import Home from './components/homepage/home';
+import Resetpass from './components/user/resetpass';
 class App extends Component {
   render() {
     return (
@@ -14,6 +15,7 @@ class App extends Component {
         <Footer />
         <Login />
         <Registration />
+        <Resetpass />
       </div>
     );
   }

@@ -251,7 +251,7 @@ section#header ul.float-right > li > button {
   color: #e82a13;
 }
 
-#login button.close, #dangky button.close {
+#login button.close, #dangky button.close, #resetpass button.close {
   position: absolute;
   right: 20px;
   z-index: 9;

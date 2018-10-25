@@ -14,11 +14,10 @@ const resetpass = () => {
                         <a href="true">Quên mật khẩu</a>
                         </li>
                     </ul>
-                    <label htmlFor="login-input-user" className="login__label">
-                        Email
+                    <label htmlFor="login-input-user" className="fullwidth text-center text-white">
+                        <br />Vui lòng nhập mail bạn đã đăng ký để đặt lại mật khẩu
                     </label>
                     <input className="login__input" type="email" />
-                    <span className="text-white">Vui lòng nhập mail bạn đã đăng ký để đặt lại mật khẩu</span>
                     <button className="login__submit" disabled>Gửi</button>
                     </form>
                     <a href="true" className="login__forgot float-left" data-dismiss="modal" data-toggle="modal" data-target="#dangky">Đăng ký</a>

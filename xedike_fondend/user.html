@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>xedike</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="style.css">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+</head>
+<body id="body" class="fullwidth">
+<section class="fullwidth" id="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3 col-3">
+                <a href="index.html" title="homepage">
+                    <img src="img/logo.png" alt="logo goto" class="logo"/>
+                </a>
+            </div>
+            <div class="col-sm-9 col-9">
+                <ul class="float-right">
+                    <li>
+                        <button type="button" class="btn" data-toggle="modal" data-target="#login">
+                            Đăng nhập
+                        </button>
+                    </li>
+                    <li>
+                        <button type="button" class="btn" data-toggle="modal" data-target="#dangky">
+                            Đăng ký
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="fullwidth">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12">
+                <ul class="row nav ul-tab">
+                    <li class="active col-6"><a data-toggle="pill" class="fullwidth" href="#tab1">THÔNG TIN CÁ NHÂN</a></li>
+                    <li class="col-6"><a data-toggle="pill" class="fullwidth" href="#tab2">LỊCH SỬ CHUYẾN ĐI</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-12">
+                <div class="tab-content ul-tab-content">
+                    <div id="tab1" class="tab-pane fade in active show">
+                        <div class="row">
+                            <div class="col-4 col-md-5 col-lg-3 col-xl-2 text-center">
+                            <img src="img/user.png" alt="user"/>
+                            <p>Ngày gia nhập <b>10/11/2018</b></p>
+                            </div>
+                            <div class="col-8 col-md-7 col-lg-5 col-xl-5">
+                                <div class="form-group">
+                                        <label for="name"><b>Họ tên<sup class="text-danger">*</sup></b></label>
+                                    <input type="text" class="form-control" id="name" placeholder="Nhập họ tên" value="Trần Hải Yến">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email"><b>Email<sup class="text-danger">*</sup></b></label>
+                                    <input type="email" class="form-control" id="mail" placeholder="Nhập email" value="Fiststar1995@gmail.com">
+                                </div>
+                                <div class="form-group">
+                                    <label for="number"><b>Số điện thoại<sup class="text-danger">*</sup></b></label>
+                                    <input type="number" class="form-control" id="phone" placeholder="Nhập điện thoại" value="01639034971">
+                                </div>
+                                <div class="form-group">
+                                    <div class="form-check-inline">
+                                        <label class="form-check-label" for="radio1">
+                                            <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>Nam
+                                        </label>
+                                    </div>
+                                    <div class="form-check-inline">
+                                        <label class="form-check-label" for="radio2">
+                                            <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">Nữ
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-12 col-lg-4 col-xl-5">
+                                <div class="form-group">
+                                        <label for="number"><b>Ngày sinh</b></label>
+                                    <input type="datetime" class="form-control" id="birthday" placeholder="Nhập ngày sinh" value="10/10/1995">
+                                </div>
+                                <div class="form-group">
+                                        <label for="number"><b>Địa chỉ<sup class="text-danger">*</sup></b></label>
+                                    <textarea class="form-control" rows="4" id="diachi">72 Lê Thánh Tôn, q.10, tp.HCM
+                                    </textarea>
+                                </div>
+                            </div>
+                            <div class="col-12 text-right">
+                                <button class="btn btn-default btn-sm">Hủy bỏ</button>
+                                <button class="btn btn-success btn-sm">Chỉnh sửa</button>
+                                <button class="btn btn-primary btn-sm">Lưu lại</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab2" class="tab-pane fade">
+                      <h3>Menu 1</h3>
+                      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="fullwidth" id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 col-12">
+                <p><a href="index.html" title="trang chủ"><img src="img/logo.png" class="logo" alt="goto.vn"></a></p>
+                <p>Hỗ trợ: <a href="callto:0339034971">0339034971</a></p>
+                <p>Email: <a href="mailto:Fiststar1995@gmail.com">Fiststar1995@gmail.com</a></p>
+            </div>
+            <div class="col-sm-4 col-12">
+                <h5><b>Thông tin</b></h5>
+                <p><a href="">Điều khoản sử dụng</a></p>
+                <p><a href="">Chính sách bảo mật</a></p>
+                <p><a href="">Giải quyết tranh chấp</a></p>
+            </div>
+            <div class="col-sm-4 col-12">
+                <h5><b>Hỗ trợ</b></h5>
+                <p><a href="">Đăng ký làm tài xế</a></p>
+                <p><a href="">Đăng ký khách hàng</a></p>
+                <p><a href="">Thất lạc hành lý</a></p>
+            </div>
+            <div class="col-12 col-sm-12 text-center border-top">
+                <span>Bản quyền © 2018 Trần Hải Yến. Giữ toàn quyền.</span>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+<script src="index.js"></script>
+</body>
+</html>

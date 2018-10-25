@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>xedike</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="style.css">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+</head>
+<body id="body" class="fullwidth">
+<section class="fullwidth" id="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3 col-3">
+                <a href="index.html" title="homepage">
+                    <img src="img/logo.png" alt="logo goto" class="logo"/>
+                </a>
+            </div>
+            <div class="col-sm-9 col-9">
+                <ul class="float-right">
+                    <li>
+                        <button type="button" class="btn" data-toggle="modal" data-target="#login">
+                            Đăng nhập
+                        </button>
+                    </li>
+                    <li>
+                        <button type="button" class="btn" data-toggle="modal" data-target="#dangky">
+                            Đăng ký
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="breadcrumball fullwidth">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12">
+                <div class="breadcrumb">
+                    <a class="breadcrumb__step breadcrumb__step--active" href="#">Danh sách chuyến</a>
+                    <a class="breadcrumb__step breadcrumb__step--active" href="#">Chi tiết</a>
+                    <a class="breadcrumb__step" href="#">Thanh toán</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="fullwidth" id="detail">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-lg-9">
+                <div class="row" class="detail">
+                    <div class="col-12 col-sm-12">
+                        <h1 class="title-detail">Thừa Thiên Huế <i class="fa fa-arrow-right text-secondary" aria-hidden="true"></i> Nha Trang</h1>
+                    </div>
+                    <div class="col-12 col-md-7 col-lg-6">
+                        <img src="img/car1.jpg" alt="xe của tài xế">
+                    </div>
+                    <div class="col-12 col-md-5 col-lg-6">
+                        <div class="info">
+                            <a href="user.html" title="Thông tin user">
+                                <div class="fullwidth p">
+                                    <span><img src="img/user.png" alt="user1" class="user"></span>
+                                    <span><b>Trần Hải Yến</b></span>
+                                </div>
+                            </a>
+                            <div class="fullwidth p"><b>Tên xe:</b> EcoSport 2018</div>
+                            <div class="fullwidth p"><b>Biển số xe:</b> 30F13163</div>
+                            <div class="fullwidth p"><b>Khởi hành:</b> 22/10/2018 18:00</div>
+                            <div class="fullwidth star">
+                                <i class="fa fa-star active" aria-hidden="true"></i>
+                                <i class="fa fa-star active" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <span>(54)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12">
+                        <div class="form-div">
+                            <div class="row">
+                                <div class="col-md-6 col-12">
+                                    <div class="form-group">
+                                        <label for="here"><b>Điểm đón<sup class="text-danger">*</sup></b></label>
+                                        <input type="text" class="form-control" id="here" placeholder="Nhập điểm đón" autofocus>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="there"><b>Điểm đến<sup class="text-danger">*</sup></b></label>
+                                        <input type="text" class="form-control" id="there" placeholder="Nhập điểm đến">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="number"><b>Số ghế trống(5/7)<sup class="text-danger">*</sup></b></label>
+                                        <input type="number" class="form-control" id="number" placeholder="Nhập số ghế" autofocus>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="number"><b>Hành lý<sup class="text-danger">*</sup></b></label>
+                                        <select class="form-control" id="sel1">
+                                            <option>Không có</option>
+                                            <option>Cỡ vừa</option>
+                                            <option>Cỡ nhỏ</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="comment"><b>Ghi chú</b></label>
+                                        <textarea class="form-control" rows="4" id="comment"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-12">
+                                    <div class="fullwidth text-center title-info">
+                                        <span><b>TIỆN ÍCH</b></span>
+                                    </div>
+                                    <div class="info">
+                                        <div class="fullwidth">
+                                            <span class="float-left"><b>Dịch vụ: </b></span>
+                                            <span class="float-right">
+                                                <img src="img/wifi.png" alt="wifi" title="wifi">
+                                                <img src="img/water.png" alt="nước" title="nước">
+                                                <img src="img/pet.png" alt="thú cưng" title="thú cưng">
+                                            </span>
+                                        </div>
+                                        <div class="fullwidth"><span class="float-left"><b>Thời gian:</b></span> <span class="float-right">Có thể muộn 15 phút</span></div>
+                                        <div class="fullwidth"><span class="float-left"><b>Hành lý tối đa:</b></span><span class="float-right">Cỡ vừa</span></div>
+                                        <div class="fullwidth"><span class="float-left"><b>Giá vé:</b></span> <span class="float-right">150000<sup>đ</sup></span></div>
+                                        <div class="fullwidth"><span class="float-left"><b>Phí dịch vụ:</b></span><span class="float-right">50000<sup>đ</sup></span></div>
+                                        <div class="fullwidth"><span class="float-left"><b>Tổng tiền:</b></span><span class="float-right">200000<sup>đ</sup></span></div>
+                                        <div class="fullwidth">
+                                            <div class="form-check-inline">
+                                                <label class="form-check-label" for="check1">
+                                                  <input type="checkbox" class="form-check-input" id="check1" name="vehicle1" value="something" checked>Tôi đồng ý với <a href="#">Điều khoản sử dụng</a>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <p><button class="btn btn-success float-right">Thanh toán</button></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 col-sm-12">
+                <div class="form-div fullwidth" id="search">
+                    <div class="fullwidth text-center title-info">
+                        <span><b>TÌM KIẾM</b></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="fullwidth" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 col-12">
+                    <p><a href="index.html" title="trang chủ"><img src="img/logo.png" class="logo" alt="goto.vn"></a></p>
+                    <p>Hỗ trợ: <a href="callto:0339034971">0339034971</a></p>
+                    <p>Email: <a href="mailto:Fiststar1995@gmail.com">Fiststar1995@gmail.com</a></p>
+                </div>
+                <div class="col-sm-4 col-12">
+                    <h5><b>Thông tin</b></h5>
+                    <p><a href="">Điều khoản sử dụng</a></p>
+                    <p><a href="">Chính sách bảo mật</a></p>
+                    <p><a href="">Giải quyết tranh chấp</a></p>
+                </div>
+                <div class="col-sm-4 col-12">
+                    <h5><b>Hỗ trợ</b></h5>
+                    <p><a href="">Đăng ký làm tài xế</a></p>
+                    <p><a href="">Đăng ký khách hàng</a></p>
+                    <p><a href="">Thất lạc hành lý</a></p>
+                </div>
+                <div class="col-12 col-sm-12 text-center border-top">
+                    <span>Bản quyền © 2018 Trần Hải Yến. Giữ toàn quyền.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+<script src="index.js"></script>
+</body>
+</html>

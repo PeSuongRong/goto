@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>xedike</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+  </head>
+  <body>
+    <section class="fullwidth" id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3 col-3">
+                    <a href="index.html" title="homepage">
+                        <img src="img/logo.png" alt="logo goto" class="logo"/>
+                    </a>
+                </div>
+                <div class="col-sm-9 col-9">
+                    <ul class="float-right">
+                        <li>
+                            <button type="button" class="btn" data-toggle="modal" data-target="#login">
+                                Đăng nhập
+                            </button>
+                        </li>
+                        <li>
+                            <button type="button" class="btn" data-toggle="modal" data-target="#dangky">
+                                Đăng ký
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="fullwidth" id="home">
+        <div class="fullwidth bannar">
+            <img src="img/bannar.jpg" alt="bannar trang chủ">
+        </div>
+        <div class="fullwidth">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-12">
+                        <ul class="menu fullwidth d-none d-sm-block">
+                            <li class="text-center"><a class="fullwidth" href="#list-tour">Danh sách chuyến</a></li>
+                            <li class="text-center"><a class="fullwidth" href="#introduce">Về chúng tôi</a></li>
+                            <li class="text-center"><a class="fullwidth" href="#achievement">Thành tựu</a></li>
+                            <li class="text-center"><a class="fullwidth" href="#car">Cùng hợp tác</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row list-task">
+                    <div class="col-sm-12 col-12" id="introduce">
+                        <div class="row text-center">
+                            <div class="col-12 col-sm-12">
+                                <h2 class="title">
+                                    <span class="bg-fff">
+                                        <span>V</span><span >Ề</span>
+                                        <span>C</span><span>H</span><span >Ú</span><span>N</span><span>G</span>
+                                        <span>T</span><span >Ô</span><span>I</span>
+                                    </span>
+                                </h2>
+                            </div>
+                            <div class="col-4 col-sm-4">
+                                <div class="icon-green">
+                                    <span class="introduce"><i class="fa fa-handshake-o" aria-hidden="true"></i></span>
+                                </div>
+                                <h4>Tin tưởng</h4>
+                                <p>Bạn sẽ biết tài xế và bạn đồng hành của bạn là ai.
+                                    Điều đó giúp bạn có những trải nghiệm tốt hơn trên hành trình của mình.
+                                </p>
+                            </div>
+                            <div class="col-4 col-sm-4">
+                                <div class="icon-green">
+                                    <span class="introduce"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></span>
+                                </div>
+                                <h4>Chủ động</h4>
+                                <p>Thời gian chờ, số ghế trống, giá cả, chất lượng tài xế, các đánh giá, …
+                                    tất cả sẽ được hiển thị rõ ràng để bạn yên tâm đặt chuyến đi.</p>
+                            </div>
+                            <div class="col-4 col-sm-4">
+                                <div class="icon-green">
+                                <span class="introduce"><i class="fa fa-life-ring" aria-hidden="true"></i></span>
+                                </div>
+                                <h4>Thân thiện</h4>
+                                <p>Mỗi 2 người đi chung một xe tương đương với việc trồng 4 cây xanh cho việc hấp thụ khí C02 trong vòng 1 năm.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-12" id="achievement">
+                        <div class="row text-center">
+                            <div class="col-12 col-sm-12">
+                                <h2 class="title">
+                                    <span class="bg-fff">
+                                        <span>T</span><span >H</span><span>À</span><span>N</span><span>H</span>
+                                        <span>T</span><span>Ự</span><span >U</span>
+                                    </span>
+                                </h2>
+                            </div>
+                            <div class="col-12 col-sm-3 d-none d-sm-block">
+                                <img src="img/public.jpg" alt="cộng đồng">
+                            </div>
+                            <div class="col-12 col-sm-9">
+                                <div class="row text-center">
+                                    <div class="col-4 col-sm-4">
+                                        <div class="icon-green">
+                                            <span  class="achievement">2134</span>
+                                        </div>
+                                        <h5 class="text-uppercase">Khách hàng</h5>
+                                        <p>Hàng nghìn lượt khách tin tưởng chúng tôi để tìm những chuyến xe với chất lượng tốt nhất.</p>
+                                    </div>
+                                    <div class="col-4 col-sm-4">
+                                        <div class="icon-green">
+                                            <span class="achievement">123</span>
+                                        </div>
+                                        <h5 class="text-uppercase">Chuyến xe</h5>
+                                        <p>Số chuyến xe ngày càng tăng cho chúng tôi biết các bạn đã tin tưởng sử dụng dịch vụ của chúng tôi.</p>
+                                    </div>
+                                    <div class="col-4 col-sm-4">
+                                        <div class="icon-green">
+                                            <span class="achievement">2343</span>
+                                        </div>
+                                        <h5 class="text-uppercase">Tài xế</h5>
+                                        <p>Hệ thống của chúng tôi kết nối hàng trăm tài xế sẵn sàng phục vụ nhu cầu đi lại mỗi ngày.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-12" id="car">
+                        <div class="row text-center">
+                            <div class="col-12 col-sm-12">
+                                <h2 class="title">
+                                    <span class="bg-fff">
+                                        <span>C</span><span >Ù</span><span>N</span><span>G</span>
+                                        <span>H</span><span>Ợ</span><span >P</span>
+                                        <span>T</span><span>Á</span><span >C</span>
+                                    </span>
+                                </h2>
+                            </div>
+                            <div class="col-12 col-sm-5">
+                                <img src="img/drive.png" class="height200" alt="lái xe">
+                            </div>
+                            <div class="col-12 col-sm-7">
+                                <h3>Bắt đầu chuyến xe của bạn</h3>
+                                <p>Là người sẽ mang những chuyến xe cũng như những trải nghiệm cho Khách hàng.
+                                    Các tài xế luôn là những người hiểu rõ Khách hàng cần những gì là tốt nhất.
+                                    Tất nhiên, chúng tôi có những Quy định cụ thể để đảm bảo lợi ích lớn nhất cho tất cả các bên.
+                                </p>
+                                <button class="btn btn-success text-white" data-toggle="modal" data-target="#dangky">Đăng ký làm tài xế</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-12" id="list-tour">
+                        <div class="row">
+                            <div class="col-12 col-sm-12">
+                                <h2 class="title">
+                                    <span class="bg-fff">
+                                        <span>C</span><span >Á</span><span>C</span>
+                                        <span>C</span><span>H</span><span >U</span><span>Y</span><span>Ế</span><span>N</span>
+                                        <span>Đ</span><span>I</span>
+                                    </span>
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="list-item">
+                            <div class="row">
+                                <div class="col-12 col-sm-4">
+                                    <p>Thừa Thiên Huế <i class="fa fa-arrow-right" aria-hidden="true"></i> Nha Trang</p>
+                                    <p><i class="fa fa-calendar-check-o" aria-hidden="true"></i>22/10/2018 18:30</p>
+                                </div>
+                                <div class="col-12 col-sm-3">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-12 p"><i class="fa fa-car" aria-hidden="true"></i> Toyota Innova 2013</div>
+                                        <div class="col-5 col-sm-5"><i class="fa fa-users" aria-hidden="true"></i>0/7</div>
+                                        <div class="col-7 col-sm-7"><i class="fa fa-taxi" aria-hidden="true"></i><span>Tận Nơi</span></div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-3">
+                                    <div class="fullwidth p">
+                                        <span><img src="img/user.png" alt="user1" class="user"></span>
+                                        <span>Trần Hải Yến</span>
+                                    </div>
+                                    <div class="fullwidth star">
+                                        <i class="fa fa-star active" aria-hidden="true"></i>
+                                        <i class="fa fa-star active" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <span>(54)</span>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-2">
+                                    <p>120000<sup>đ</sup></p>
+                                    <a class="btn btn-success text-white btn-sm">Xem chi tiết</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-item">
+                            <div class="row">
+                                <div class="col-12 col-sm-4">
+                                    <p>Thừa Thiên Huế <i class="fa fa-arrow-right" aria-hidden="true"></i> Nha Trang</p>
+                                    <p><i class="fa fa-calendar-check-o" aria-hidden="true"></i>22/10/2018 18:30</p>
+                                </div>
+                                <div class="col-12 col-sm-3">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-12 p"><i class="fa fa-car" aria-hidden="true"></i> Toyota Innova 2013</div>
+                                        <div class="col-5 col-sm-5"><i class="fa fa-users" aria-hidden="true"></i>0/7</div>
+                                        <div class="col-7 col-sm-7"><i class="fa fa-taxi" aria-hidden="true"></i><span>Tận Nơi</span></div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-3">
+                                    <div class="fullwidth p">
+                                        <span><img src="img/user.png" alt="user1" class="user"></span>
+                                        <span>Trần Hải Yến</span>
+                                    </div>
+                                    <div class="fullwidth star">
+                                        <i class="fa fa-star active" aria-hidden="true"></i>
+                                        <i class="fa fa-star active" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <span>(54)</span>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-2">
+                                    <p>120000<sup>đ</sup></p>
+                                    <a class="btn btn-success text-white btn-sm">Xem chi tiết</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-item">
+                            <div class="row">
+                                <div class="col-12 col-sm-4">
+                                    <p>Thừa Thiên Huế <i class="fa fa-arrow-right" aria-hidden="true"></i> Nha Trang</p>
+                                    <p><i class="fa fa-calendar-check-o" aria-hidden="true"></i>22/10/2018 18:30</p>
+                                </div>
+                                <div class="col-12 col-sm-3">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-12 p"><i class="fa fa-car" aria-hidden="true"></i> Toyota Innova 2013</div>
+                                        <div class="col-5 col-sm-5"><i class="fa fa-users" aria-hidden="true"></i>0/7</div>
+                                        <div class="col-7 col-sm-7"><i class="fa fa-taxi" aria-hidden="true"></i><span>Tận Nơi</span></div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-3">
+                                    <div class="fullwidth p">
+                                        <span><img src="img/user.png" alt="user1" class="user"></span>
+                                        <span>Trần Hải Yến</span>
+                                    </div>
+                                    <div class="fullwidth star">
+                                        <i class="fa fa-star active" aria-hidden="true"></i>
+                                        <i class="fa fa-star active" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <span>(54)</span>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-2">
+                                    <p>120000<sup>đ</sup></p>
+                                    <a class="btn btn-success text-white btn-sm">Xem chi tiết</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-item">
+                                <div class="row">
+                                    <div class="col-12 col-sm-4">
+                                        <p>Thừa Thiên Huế <i class="fa fa-arrow-right" aria-hidden="true"></i> Nha Trang</p>
+                                        <p><i class="fa fa-calendar-check-o" aria-hidden="true"></i>22/10/2018 18:30</p>
+                                    </div>
+                                    <div class="col-12 col-sm-3">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 p"><i class="fa fa-car" aria-hidden="true"></i> Toyota Innova 2013</div>
+                                            <div class="col-5 col-sm-5"><i class="fa fa-users" aria-hidden="true"></i>0/7</div>
+                                            <div class="col-7 col-sm-7"><i class="fa fa-taxi" aria-hidden="true"></i><span>Tận Nơi</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-3">
+                                        <div class="fullwidth p">
+                                            <span><img src="img/user.png" alt="user1" class="user"></span>
+                                            <span>Trần Hải Yến</span>
+                                        </div>
+                                        <div class="fullwidth star">
+                                            <i class="fa fa-star active" aria-hidden="true"></i>
+                                            <i class="fa fa-star active" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <span>(54)</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-2">
+                                        <p>120000<sup>đ</sup></p>
+                                        <a class="btn btn-success text-white btn-sm">Xem chi tiết</a>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="fullwidth" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 col-12">
+                    <p><a href="index.html" title="trang chủ"><img src="img/logo.png" class="logo" alt="goto.vn"></a></p>
+                    <p>Hỗ trợ: <a href="callto:0339034971">0339034971</a></p>
+                    <p>Email: <a href="mailto:Fiststar1995@gmail.com">Fiststar1995@gmail.com</a></p>
+                </div>
+                <div class="col-sm-4 col-12">
+                    <h5><b>Thông tin</b></h5>
+                    <p><a href="">Điều khoản sử dụng</a></p>
+                    <p><a href="">Chính sách bảo mật</a></p>
+                    <p><a href="">Giải quyết tranh chấp</a></p>
+                </div>
+                <div class="col-sm-4 col-12">
+                    <h5><b>Hỗ trợ</b></h5>
+                    <p><a href="">Đăng ký làm tài xế</a></p>
+                    <p><a href="">Đăng ký khách hàng</a></p>
+                    <p><a href="">Thất lạc hành lý</a></p>
+                </div>
+                <div class="col-12 col-sm-12 text-center border-top">
+                    <span>Bản quyền © 2018 Trần Hải Yến. Giữ toàn quyền.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="modal fade" id="login">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close float-right" data-dismiss="modal">&times;</button>
+                <div class="login-container fullwidth">
+                    <form action="" class="form-login">
+                        <ul class="login-nav">
+                            <li class="login-nav__item active">
+                                <a href="#">Đăng nhập</a>
+                            </li>
+                        </ul>
+                        <label for="login-input-user" class="login__label">
+                            Tên đăng nhập
+                        </label>
+                        <input id="login-input-user" class="login__input" type="text" />
+                        <label for="login-input-password" class="login__label">
+                            Mật khẩu
+                        </label>
+                        <input id="login-input-password" class="login__input" type="password" />
+                        <label for="login-sign-up" class="login__label--checkbox">
+                            <input id="login-sign-up" type="checkbox" class="login__input--checkbox" />
+                            Ghi nhớ tài khoản
+                        </label>
+                        <button class="login__submit" disabled>Đăng nhập</button>
+                    </form>
+                    <div class="text-center fullwidth login-icon">
+                        <ul>
+                            <li><i class="fa fa-facebook-square" aria-hidden="true"></i></li>
+                            <li><i class="fa fa-google-plus-square" aria-hidden="true"></i></li>
+                        </ul>
+                    </div>
+                    <a href="#" class="login__forgot float-left" data-dismiss="modal" data-toggle="modal" data-target="#dangky">Đăng ký</a>
+                    <a href="#" class="login__forgot float-right">Bạn quên mật khẩu?</a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="dangky">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close float-right" data-dismiss="modal">&times;</button>
+                    <div class="login-container fullwidth">
+                        <form action="" class="form-login">
+                            <ul class="login-nav">
+                                <li class="login-nav__item active">
+                                    <a href="#">Đăng ký</a>
+                                </li>
+                            </ul>
+                            <label for="login-input-user" class="login__label">
+                                Tên người dùng
+                            </label>
+                            <input id="login-input-user" class="login__input" type="text" />
+                            <label for="login-input-password" class="login__label">
+                                Mật khẩu
+                            </label>
+                            <input id="input-password" class="login__input" type="password" />
+                            <label for="login-input-password" class="login__label">
+                                    Mật khẩu
+                                </label>
+                                <input id="input-re-password" class="login__input" type="password" />
+                            <label for="login-sign-up" class="login__label--checkbox">
+                                <input id="login-sign-up" type="checkbox" class="login__input--checkbox" />
+                                Bạn đồng ý với các điều khoản của goto.vn
+                            </label>
+                            <button class="login__submit" disabled>Đăng ký</button>
+                        </form>
+                        <a href="#" class="login__forgot float-right" data-dismiss="modal" data-toggle="modal" data-target="#login">Đăng nhập</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
